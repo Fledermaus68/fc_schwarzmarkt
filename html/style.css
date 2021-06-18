@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap%27');
+.main {
+    display: none;
+    background-color: #222226;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    color: gray;
+    padding: 5px;
+    height: 400px;
+    margin-top: 250px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    margin: 2px 0.3em 0.3em 0;
+    border-radius: 0.15em;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #3369ff;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+    text-align: center;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #1a57ff;
+}
+
+.button:active {
+    top: 0.1em;
+}
+
+@media all and (max-width:30em) {
+    .button {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+#item {
+    float: left;
+    padding-left: 10px;
+    margin: 16px;
+    box-sizing: border-box;
+    border: 1px solid #1d1d21;
+    background-color: #1d1d21;
+    box-shadow: 10px 10px 15px black;
+}
+
+#item-icon {
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+}
+
+#item-icon:hover {
+    filter: blur(5px);
+}
+
+#item-name {
+    font-weight: bold;
+}
+
+#item-price {
+    color: red;
+}
+
+#close {
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
